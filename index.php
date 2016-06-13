@@ -32,16 +32,16 @@
                     </div>
                     <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
                         <div data-p="225.00" style="display: none;">
-                            <img style="opacity: 0.4;" data-u="image" src="img/tratado/maxresdefault.jpg" />
+                            <img style="opacity: 0.5;" data-u="image" src="img/tratado/maxresdefault.jpg" />
                             <div style="position: absolute; top: 30px; left: 30px; width: 480px; height: 120px; font-size: 60px; color: #ffffff; line-height: 60px;">GARDENING SERVICE</div>
                             <div style="color: #ffffff; position: absolute; top: 350px; left: 30px; width: 480px; height: 120px; font-size: 40px;  line-height: 38px;">Execução e manutenção de jardins</div>
                         </div>
                         <div data-p="225.00" style="display: none;">
-                            <img style="opacity: 0.4;" data-u="image" src="img/tratado/IMG_8526.jpg" />
+                            <img style="opacity: 0.5;" data-u="image" src="img/tratado/IMG_8526.jpg" />
                             <div style="position: absolute; top: 120px; left: 30px; width: 480px; height: 120px; font-size: 40px; color: #ffffff; line-height: 38px;">Paisagismo</div>
                         </div>
                         <div data-p="225.00" data-po="80% 55%" style="display: none;">
-                            <img style="opacity: 0.4;" data-u="image" src="img/tratado/slide4.jpg" />
+                            <img style="opacity: 0.5;" data-u="image" src="img/tratado/slide4.jpg" />
                             <div style="position: absolute; top: 120px; left: 30px; width: 480px; height: 120px; font-size: 40px; color: #ffffff; line-height: 38px;">Plantas, Terras e Adubos</div>                            
                         </div>
                     </div>
