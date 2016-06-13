@@ -26,10 +26,10 @@ article h1{
 }
 
 article p {
-    font-size: 18px;
+    font-size: 16px;
     text-align: justify;
     text-justify: auto;
-    margin: 8px 0;
+    margin: 30px 0;
     text-align-last: left;
     text-indent: 50px;
 }
