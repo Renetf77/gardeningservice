@@ -79,11 +79,56 @@
                 </div>
                 <div id="contato">
                     <div class="gspace">
-                        <article>
-                            <header>
-                                <h1>Contato</h1>   
-                            </header>
-                        </article>
+                        <div class="form">
+                            <article>
+                                <header>
+                                    <h1>Contato</h1>
+                                    <p class="tagline">Quer pedir um orçamento? Entre em contato que ficaremos felizes em atendê-lo.</p>
+                                    <?php
+                                    if (filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_STRING)):
+                                        $nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_STRING);
+                                    endif;
+                                    if (filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL)):
+                                        $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+                                    endif;
+                                    if (filter_input(INPUT_POST, 'telefone', FILTER_SANITIZE_STRING)):
+                                        $telefone = filter_input(INPUT_POST, 'telefone', FILTER_SANITIZE_STRING);
+                                    endif;
+                                    if (filter_input(INPUT_POST, 'mensagem', FILTER_SANITIZE_STRING)):
+                                        $mensagem = filter_input(INPUT_POST, 'mensagem', FILTER_SANITIZE_STRING);
+                                    endif;
+
+//                                if (isset($nome) && isset($email) && isset($telefone) && isset($mensagem)):
+//                                    echo "Dados corretos";
+//                                else:
+//                                    echo "Dados incorretos";
+//                                endif;
+
+                                    ?>
+
+                                    <form action="index.php#contato" method="post">
+                                        <label>
+                                            <span>Nome:</span>
+                                            <input type="text" name="nome" title="Informe seu nome:" placeholder="Informe seu nome" required/>
+                                        </label>
+                                        <label>
+                                            <span>Email:</span>
+                                            <input type="email" name="email" title="Informe seu email:" placeholder="Informe seu email" required/>
+                                        </label>
+                                        <label>
+                                            <span>Telefone:</span>
+                                            <input type="tel" name="telefone" title="Informe seu telefone:" placeholder="Informe seu telefone" required/>
+                                        </label>
+                                        <label>
+                                            <span>Mensagem</span>
+                                            <textarea rows="4" name="mensagem" title="Sua mensagem:" placeholder="Sua mensagem" required></textarea>
+                                        </label>
+                                        <!--<img title="Aguarde enviando email" alt="" src="img/loading.gif"/>-->
+                                        <button>Enviar mensagem</button>
+                                    </form>
+                                </header>
+                            </article>
+                        </div>
                     </div> 
                 </div>                
             </main>

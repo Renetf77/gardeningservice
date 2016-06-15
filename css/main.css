@@ -20,7 +20,7 @@ article {
     color: #2a2a2b;
 }
 article h1{
-    margin: 20px 0;
+    margin-bottom: 20px;
     font-size: 30px;
     font-weight: bold;
 }
@@ -29,25 +29,63 @@ article p {
     font-size: 16px;
     text-align: justify;
     text-justify: auto;
-    margin: 30px 0;
+    margin-bottom: 30px;
     text-align-last: left;
     text-indent: 50px;
 }
+
+p:last-child{
+    margin-bottom: 0;
+}
+.tagline{
+    font-size: 18px;
+    text-align: justify;
+    text-justify: auto;
+    margin-bottom: 10px;
+    text-align-last: left;
+    text-indent: 50px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
 .title{
     visibility: hidden;
 }
 .content {
     width: 100%;
     color: #eaeaea;
-}
-
-.gspace {
-    width: 70%;
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-    height: 100%;
-    vertical-align: middle;
-    margin: auto auto;
 }
 
 .top{
@@ -93,11 +131,16 @@ article p {
 }
 
 .slide{
-     background-color: #2a2a2b;
+    background-color: #2a2a2b;
 }
+.form{
+    border-radius: 5px;
+    background-color: #acacac;
+    padding: 20px;
+}  
 
 #servicos{
-    padding-left: 10px;
+    padding: 20px 20px;
     border-left: #6eac6f;
     border-width: 4px;
     border-style: none none none solid;
@@ -105,8 +148,41 @@ article p {
 
 #contato{
     background: #666666;
+    padding: 10px 0;
 }
 
+@media (min-width: 1024px){
+    .gspace {
+        width: 70%;
+        /*margin-left: auto;*/
+        /*margin-right: auto;*/
+        height: 100%;
+        vertical-align: middle;
+        margin: auto auto;
+    }
+} 
+
+@media (min-width: 600px) and (max-width: 1024px) { 
+    .gspace {
+        width: 80%;
+        /*margin-left: auto;*/
+        /*margin-right: auto;*/
+        height: 100%;
+        vertical-align: middle;
+        margin: auto auto;
+    }
+}
+
+@media (max-width: 600px) { 
+    .gspace {
+        width: 95%;
+        /*margin-left: auto;*/
+        /*margin-right: auto;*/
+        height: 100%;
+        vertical-align: middle;
+        margin: auto auto;
+    }
+}
 /* jssor slider bullet navigator skin 05 css */
 /*
 .jssorb05 div           (normal)
