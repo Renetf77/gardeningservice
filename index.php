@@ -33,16 +33,16 @@
                     <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
                         <div data-p="225.00" style="display: none;">
                             <img style="opacity: 0.9;" data-u="image" src="img/tratado/maxresdefault.jpg" />
-                            <div style="position: absolute; top: 30px; left: 30px; width: 480px; height: 120px; font-size: 60px; color: #ffffff; line-height: 60px;">GARDENING SERVICE</div>
-                            <div style="color: #ffffff; position: absolute; top: 350px; left: 30px; width: 480px; height: 120px; font-size: 40px;  line-height: 38px;">Execução e manutenção de jardins</div>
+                            <div class="title-slide1">GARDENING SERVICE</div>
+                            <div class="tag-slide1">Execução e manutenção de jardins</div>
                         </div>
                         <div data-p="225.00" style="display: none;">
                             <img style="opacity: 0.9;" data-u="image" src="img/tratado/IMG_8526.jpg" />
-                            <div style="position: absolute; top: 120px; left: 30px; width: 480px; height: 120px; font-size: 40px; color: #ffffff; line-height: 38px;">Paisagismo</div>
+                            <div class="tag-slide2">Paisagismo</div>
                         </div>
                         <div data-p="225.00" data-po="80% 55%" style="display: none;">
                             <img style="opacity: 0.9;" data-u="image" src="img/tratado/slide4.jpg" />
-                            <div style="position: absolute; top: 120px; left: 30px; width: 480px; height: 120px; font-size: 40px; color: #ffffff; line-height: 38px;">Plantas, Terras e Adubos</div>                            
+                            <div class="tag-slide3">Plantas, Terras e Adubos</div>                            
                         </div>
                     </div>
                     <!-- Bullet Navigator -->
@@ -121,7 +121,7 @@
                                         </label>
                                         <label>
                                             <span>Mensagem</span>
-                                            <textarea rows="4" name="mensagem" title="Sua mensagem:" placeholder="Sua mensagem" required></textarea>
+                                            <textarea rows="6" name="mensagem" title="Sua mensagem:" placeholder="Sua mensagem" required></textarea>
                                         </label>
                                         <!--<img title="Aguarde enviando email" alt="" src="img/loading.gif"/>-->
                                         <button>Enviar mensagem</button>
