@@ -9,12 +9,13 @@ and open the template in the editor.
 */
 
 
-html{
-    font-family: arial;
+html {
+    font-family: Tahoma, Geneva, sans-serif;
 }
 
 body{
     background-color: #ffffff;
+
 }
 article {
     color: #2a2a2b;
@@ -26,14 +27,36 @@ article h1{
 }
 
 article p {
+    font-size: 18px;
+    text-align: justify;
+    text-justify: auto;
+    margin-bottom: 15px;
+    text-align-last: left;
+    text-indent: 50px;
+    color: #4a4a4a;
+}
+
+article li {
     font-size: 16px;
     text-align: justify;
     text-justify: auto;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     text-align-last: left;
-    text-indent: 50px;
+    /*text-indent: 50px;*/
+    list-style-type: none ;
+    font-weight: bold;
+}
+article li:before {
+    content: "\f299"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: 50px; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
 }
 
+article li:last-child {
+    margin-bottom: 15px;
+}
 p:last-child{
     margin-bottom: 0;
 }
@@ -46,7 +69,9 @@ input {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-size: 16px;
 }
+
 textarea {
     width: 100%;
     padding: 12px 20px;
@@ -55,6 +80,8 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
 }
 
 button {
@@ -66,10 +93,13 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 16px;
+    height: 50px;
 }
 
 button:hover {
     background-color: #45a049;
+    font-size: 18px;
 }
 
 .title{
@@ -84,7 +114,7 @@ button:hover {
     background-color: #ffffff;
     opacity: 0;
     width: 100%;
-    height: 52px;
+    height: 102px;
 }
 .menu{
     background-color: #000;
@@ -96,6 +126,7 @@ button:hover {
     z-index: 2;
     position: fixed;
     width: 100%;
+
 }
 .menu ul{
     float: right;
@@ -104,8 +135,9 @@ button:hover {
 
 .menu li{
     display: inline;
-    line-height: 50px;
-    font-size: large;
+    line-height: 100px;
+    font-size: 20px;
+    text-transform: uppercase; 
 }
 
 .menu li a{
@@ -118,7 +150,8 @@ button:hover {
 .menu li a:hover{
     color: white;
     border-bottom: 4px;
-    border-color: #6eac6f;
+    /*border-color: #6eac6f;*/
+    border-color: #adff33;
     border-style: solid;
 }
 
@@ -141,14 +174,22 @@ button:hover {
 }
 
 #servicos{
-    padding: 20px 20px;
-    border-left: #6eac6f;
+    padding: 120px 20px 20px 20px;
+    /*border-left: #6eac6f;*/
+    border-left: #adff33;
     border-width: 4px;
     border-style: none none none solid;
+    /*padding-top: 40px;*/ 
+    margin-top: -100px;
 }
 
 #contato{
     background: #666666;
+    padding: 10px 0;
+}
+
+#footer {
+    background: #000;
     padding: 10px 0;
 }
 
@@ -276,7 +317,11 @@ button:hover {
     }
     .jssora22r {
         visibility: visible;       
-    }    
+    }   
+
+    .menu li{
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 600px) { 
@@ -342,6 +387,12 @@ button:hover {
     }
     .jssora22r {
         visibility: hidden;       
+    }
+    .menu li{
+        font-size: 16px;
+    }
+    .menu li a{
+        padding: 8px 2px;
     }
 }
 

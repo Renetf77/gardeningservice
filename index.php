@@ -6,14 +6,15 @@
         <meta name="description" content="Construção e manutenção de jardins"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="css/reset.css"/>
-        <link rel="stylesheet" href="css/main.css"/>        
+        <link rel="stylesheet" href="css/main.css"/>   
+        <link rel="stylesheet" href="css/font-awesome.min.css">
     </head>
     <body>
         <div class="content">
             <header>
                 <div class="menu" >
                     <div class="gspace">
-                        <a href="#" title="Site" ><img alt="logo" title="logo" src="img/lgogo.png" width="50" height="50"></a>
+                        <a href="http://localhost/GardeningService/index.php" title="Site" ><img alt="logo" title="logo" src="img/tratado/logomedio.png"  height="100"></a>
                         <ul>
                             <li><a href="#home" title="Gardening Services">Home</a></li>
                             <li><a href="#servicos" title="Serviços de Jardinagem">Serviços</a></li>
@@ -63,16 +64,82 @@
                         <header>
                             <h1>Serviços</h1>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Nossa empresa esta no mercado a mais de 5 anos, e garantimos qualidade e satisfação nos serviços.
                             </p>
                             <p>
-                                Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+                                Aplicamos nossa experiência prática na fase inicial do processo de elaboração do jardim. Esta etapa refere-se à implantação do projeto de paisagismo conforme projeto final, incluindo os seguintes serviços:
+                            </p>
+
+                            <ul class="fa-ul">
+                                <li>
+                                    Gestão de equipes para a construção do jardim, incluídas as ferramentas e maquinaria; 
+                                </li>
+                                <li>
+                                    Limpezas do terreno (pequenas pedras e plantas daninhas não incluem restos de obras);
+                                </li>
+                                <li>
+                                    Fornecimento e colocação de substratos;
+                                </li>
+                                <li>
+                                    Preparo do solo: adubação e calagem;
+                                </li>
+                                <li>
+                                    Fornecimento e plantio das espécies vegetais;
+                                </li>
+                                <li>
+                                    Acessória e construção de estruturas do jardim, como pergolados, taludes, valas, etc;
+                                </li>
+                                <li>
+                                    Limpeza final da área.
+                                </li>
+                            </ul>
+
+                            <p>
+                                Para apreciar melhor o resultado final de um projeto paisagístico, é necessário tempo, dedicação e atenção às plantas. O posterior resultado do que foi projetado em um plano depende muito da qualidade da manutenção, pois o desenvolvimento das plantas caracteriza o trabalho de quem as cuida.
                             </p>
                             <p>
-                                Fusce convallis, mauris imperdiet gravida bibendum, nisl turpis suscipit mauris, sed placerat ipsum urna sed risus. In convallis tellus a mauris. Curabitur non elit ut libero tristique sodales. Mauris a lacus. Donec mattis semper leo. In hac habitasse platea dictumst. Vivamus facilisis diam at odio. Mauris dictum, nisi eget consequat elementum, lacus ligula molestie metus, non feugiat orci magna ac sem. Donec turpis. Donec vitae metus. Morbi tristique neque eu mauris. Quisque gravida ipsum non sapien. Proin turpis lacus, scelerisque vitae, elementum at, lobortis ac, quam. Aliquam dictum eleifend risus. In hac habitasse platea dictumst. Etiam sit amet diam. Suspendisse odio. Suspendisse nunc. In semper bibendum libero.
+                                As plantas precisam de tempo para chegar ao efeito desejado, e por isso é importante uma boa manutenção.
                             </p>
                             <p>
-                                Proin nonummy, lacus eget pulvinar lacinia, pede felis dignissim leo, vitae tristique magna lacus sit amet eros. Nullam ornare. Praesent odio ligula, dapibus sed, tincidunt eget, dictum ac, nibh. Nam quis lacus. Nunc eleifend molestie velit. Morbi lobortis quam eu velit. Donec euismod vestibulum massa. Donec non lectus. Aliquam commodo lacus sit amet nulla. Cras dignissim elit et augue. Nullam non diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Aenean vestibulum. Sed lobortis elit quis lectus. Nunc sed lacus at augue bibendum dapibus.
+                                Os serviços serão orientados por profissionais habilitados, seguindo as práticas apropriadas para cada espécie vegetal, constando basicamente de:
+                            </p>
+                            <ul  class="fa-ul">
+                                <li>
+                                    Corte de gramado - Tratos culturais em gramados com cortes periódicos (10 a 12 cortes por ano);
+                                </li>
+                                <li>
+                                    Plantios de mudas em geral;
+                                </li>
+                                <li>
+                                    Limpeza de toda a área ajardinada, com remoção de folhas, galhos secos e outros detritos;
+                                </li>
+                                <li>
+                                    Remoção de ervas daninha;
+                                </li>
+                                <li>
+                                    Poda de vegetação de porte arbóreo e arbustivo para controle de crescimento;
+                                </li>
+                                <li>
+                                    Aplicação de produtos fitos sanitários para prevenção e controle de doenças;
+                                </li>
+                                <li>
+                                    Afofamento da terra dos canteiros e vasos para melhoria da aeração;
+                                </li>
+                                <li>
+                                    Recorte da vegetação para delineação dos canteiros;
+                                </li>
+                                <li>
+                                    Adubação mineral;
+                                </li>
+                                <li>
+                                    Cobertura com camada de substrato (anual).
+                                </li>
+                            </ul>
+                            <p>
+                                Além é claro, de outros serviços como o de elétrica, hidráulica e pintura que você pode conhecer visitando a aba “serviços”.
+                            </p>
+                            <p>
+                                Entre em contato, faça um orçamento conosco e tenha o seu jardim com a qualidade que você sempre quis.
                             </p>
                         </header>
                     </article>                    
@@ -133,6 +200,21 @@
                 </div>                
             </main>
         </div>
+        <div id="footer">
+            <div class="gspace">
+                <footer>
+                    <nav> 
+                        <h1>Gardening Service</h1>
+                        <ul>
+                            <li>
+                                <a target="_blank" title="Upinside treinamentos" href="//www.upinside.com.br">Upinside</a> 
+                            </li>
+                        </ul>
+                    </nav>
+
+                </footer>
+            </div>
+        </div>                
         <!--<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>-->
         <script type="text/javascript" src="js/jssor.slider.min.js"></script>
         <!-- use jssor.slider.debug.js instead for debug -->
