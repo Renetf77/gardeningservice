@@ -32,7 +32,7 @@ article p {
     text-justify: auto;
     margin-bottom: 15px;
     text-align-last: left;
-    text-indent: 50px;
+    text-indent: 5%;
     color: #4a4a4a;
 }
 
@@ -45,12 +45,13 @@ article li {
     /*text-indent: 50px;*/
     list-style-type: none ;
     font-weight: bold;
+
 }
 article li:before {
     content: "\f299"; /* FontAwesome Unicode */
     font-family: FontAwesome;
     display: inline-block;
-    margin-left: 50px; /* same as padding-left set on li */
+    margin-left: 2%; /* same as padding-left set on li */
     width: 1.3em; /* same as padding-left set on li */
 }
 
@@ -128,6 +129,9 @@ button:hover {
     width: 100%;
 
 }
+.logo{
+    height: 100px;
+}
 .menu ul{
     float: right;
     height: 100%;
@@ -170,7 +174,16 @@ button:hover {
     text-justify: auto;
     margin-bottom: 10px;
     text-align-last: left;
-    text-indent: 50px;
+    text-indent: 5%;
+}
+.legends{
+    font-size: 18px;
+}
+.footer{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    display: block;
 }
 
 #servicos{
@@ -186,7 +199,7 @@ button:hover {
 #contato{
     background: #666666;
     padding: 10px 0;
-}
+ }
 
 #footer {
     background: #000;
@@ -265,7 +278,16 @@ button:hover {
         vertical-align: middle;
         margin: auto auto;
     }
-
+    .top{
+        height: 77px;        
+    }
+    .logo{
+        height: 75px;
+    }
+    .menu li{
+        line-height: 75px;
+        font-size: 16px;
+    }    
     .title-slide1 {
         position: absolute; 
         top: 30px; 
@@ -318,10 +340,6 @@ button:hover {
     .jssora22r {
         visibility: visible;       
     }   
-
-    .menu li{
-        font-size: 16px;
-    }
 }
 
 @media (max-width: 600px) { 
@@ -333,7 +351,17 @@ button:hover {
         vertical-align: middle;
         margin: auto auto;
     }
-
+    .top{
+        height: 62px;        
+    }
+    .logo{
+        height: 60px;
+    }
+    
+    .menu li{
+        line-height: 60px;
+        font-size: 10px;
+    }      
     .title-slide1 {
         position: absolute; 
         top: 30px; 
@@ -393,6 +421,44 @@ button:hover {
     }
     .menu li a{
         padding: 8px 2px;
+    }
+
+    article h1{
+        font-size: 20px;
+    }
+
+    article p {
+        font-size: 15px;
+    }
+
+    article li {
+        font-size: 13px;
+    }  
+
+    input {
+        font-size: 13px;
+    }
+
+    textarea {
+        font-size: 13px;
+    }
+
+    button {
+        font-size: 13px;
+    }
+
+    button:hover {
+        font-size: 15px;
+    }
+    .menu li{
+        font-size: 16px;
+    }  
+    .tagline{
+        font-size: 15px;
+
+    }
+    .legends{
+        font-size: 14px;
     }
 }
 
