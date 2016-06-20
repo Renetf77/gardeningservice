@@ -14,7 +14,7 @@
             <header>
                 <div class="menu" >
                     <div class="gspace">
-                        <a href="http://localhost/GardeningService/index.php" title="Site" ><img alt="logo" title="logo" src="img/tratado/logomedio.png"  height="100"></a>
+                        <a href="http://localhost/GardeningService/index.php" title="Site" ><img class="logo" alt="logo" title="logo" src="img/tratado/logomedio.png" ></a>
                         <ul>
                             <li><a href="#home" title="Gardening Services">Home</a></li>
                             <li><a href="#servicos" title="Serviços de Jardinagem">Serviços</a></li>
@@ -175,19 +175,19 @@
 
                                     <form action="index.php#contato" method="post">
                                         <label>
-                                            <span>Nome:</span>
+                                            <span class="legends">Nome:</span>
                                             <input type="text" name="nome" title="Informe seu nome:" placeholder="Informe seu nome" required/>
                                         </label>
-                                        <label>
+                                        <label class="legends">
                                             <span>Email:</span>
                                             <input type="email" name="email" title="Informe seu email:" placeholder="Informe seu email" required/>
                                         </label>
                                         <label>
-                                            <span>Telefone:</span>
+                                            <span class="legends">Telefone:</span>
                                             <input type="tel" name="telefone" title="Informe seu telefone:" placeholder="Informe seu telefone" required/>
                                         </label>
                                         <label>
-                                            <span>Mensagem</span>
+                                            <span class="legends">Mensagem</span>
                                             <textarea rows="6" name="mensagem" title="Sua mensagem:" placeholder="Sua mensagem" required></textarea>
                                         </label>
                                         <!--<img title="Aguarde enviando email" alt="" src="img/loading.gif"/>-->
@@ -203,14 +203,15 @@
         <div id="footer">
             <div class="gspace">
                 <footer>
-                    <nav> 
+<!--                    <nav> 
                         <h1>Gardening Service</h1>
                         <ul>
                             <li>
                                 <a target="_blank" title="Upinside treinamentos" href="//www.upinside.com.br">Upinside</a> 
                             </li>
                         </ul>
-                    </nav>
+                    </nav>-->
+<span class="footer">@copyright 2015 - <?= date('Y'); ?> - Gardening Services - Desenvolvido por</span>
 
                 </footer>
             </div>
