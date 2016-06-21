@@ -2,9 +2,19 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>Gardening Service</title>
+        <title>Gardening Services</title>
         <meta name="description" content="Construção e manutenção de jardins"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!--<base href="http://localhost/gardeningservice/">-->
+        <link rel="canonical" href="http://www.gardeningservices.com.br/" />
+        <link rel="shortcut icon" href="img/favicon2.ico" />
+        <link rel="publisher" href="http://www.rtfdesign.com.br"/>        
+        <!-- FACEBOOK -->
+        <meta property="og:site_name" content="GardeningServices"/>
+        <meta property="og:url" content="http://www.gardeningservicse.com.br/"/>
+        <meta property="og:title" content="Gardening Services"/>
+        <meta property="og:type" content="website"/>
+        <meta property="article:publisher" content="RTF Design" />         
         <link rel="stylesheet" href="css/reset.css"/>
         <link rel="stylesheet" href="css/main.css"/>   
         <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -173,6 +183,7 @@
 //                                else:
 //                                    echo "Dados incorretos";
 //                                endif;
+
                                     ?>
 
                                     <form action="index.php#contato" method="post">
