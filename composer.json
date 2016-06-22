@@ -1,6 +1,9 @@
 {
-   "require": {
-          "phpmailer/phpmailer": "~5.2"
-   }
-
+"name":"cliente/cliente",
+"require": {
+"phpmailer/phpmailer": "~5.2"
 }
+,"license": "MIT"
+,"description":"kldfgkl klsdfj j "
+}
+

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8dd4cc82a4e261bfbecb47e61cf1a62f",
-    "content-hash": "07cf8eecea915ca52c13ed3df3362c7b",
+    "hash": "13323ad25ae85691964aa1dc451f17e0",
+    "content-hash": "59a06c975721714b09a86a14d2f018a5",
     "packages": [
         {
             "name": "phpmailer/phpmailer",
