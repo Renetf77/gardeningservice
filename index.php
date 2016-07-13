@@ -8,13 +8,13 @@
         <!--<base href="http://localhost/gardeningservice/">-->
         <link rel="canonical" href="http://www.gardeningservices.com.br/" />
         <link rel="shortcut icon" href="img/favicon2.ico" />
-        <link rel="publisher" href="http://www.rtfdesign.com.br"/>        
+        <link rel="publisher" href="http://www.infogate.com.br"/>        
         <!-- FACEBOOK -->
         <meta property="og:site_name" content="GardeningServices"/>
         <meta property="og:url" content="http://www.gardeningservicse.com.br/"/>
         <meta property="og:title" content="Gardening Services"/>
         <meta property="og:type" content="website"/>
-        <meta property="article:publisher" content="RTF Design" />         
+        <meta property="article:publisher" content="Info Gate" />         
         <link rel="stylesheet" href="css/reset.css"/>
         <link rel="stylesheet" href="css/main.css"/>   
         <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -262,7 +262,7 @@
         <div id="footer">
             <div class="gspace">
                 <footer>
-                    <span class="footer">@copyright 2015 - <?= date('Y'); ?> - Gardening Services - Desenvolvido por</span>
+                    <span class="footer">@copyright 2015 - <?= date('Y'); ?> - Gardening Services - Desenvolvido por <a href="http://www.infogate.com.br" title="InfoGate">InfoGate</a></span>
                 </footer>
             </div>
         </div>                
